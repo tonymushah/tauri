@@ -1,5 +1,26 @@
 # Changelog
 
+## \[2.4.0]
+
+### New Features
+
+- [`20c190691`](https://www.github.com/tauri-apps/tauri/commit/20c19069125c89b2d45a2127278c9ffc2df35fc2) ([#12821](https://www.github.com/tauri-apps/tauri/pull/12821) by [@Simon-Laux](https://www.github.com/tauri-apps/tauri/../../Simon-Laux)) Add `WebviewBuilder.disable_javascript` and `WebviewWindowBuilder.disable_javascript` api to disable JavaScript.
+- [`060de5bbd`](https://www.github.com/tauri-apps/tauri/commit/060de5bbdddca384e3965a8938d89840f27c581d) ([#12837](https://www.github.com/tauri-apps/tauri/pull/12837) by [@niladrix719](https://www.github.com/tauri-apps/tauri/../../niladrix719)) Added `getIdentifier()` function to get the application identifier configured in tauri.conf.json
+- [`c698a6d6f`](https://www.github.com/tauri-apps/tauri/commit/c698a6d6f3e02548444a4aa0e5220bbc6fc05c74) ([#12818](https://www.github.com/tauri-apps/tauri/pull/12818) by [@Simon-Laux](https://www.github.com/tauri-apps/tauri/../../Simon-Laux)) feat: add `Webview.reload` and `WebviewWindow.reload`
+
+### Enhancements
+
+- [`55ffa23c9`](https://www.github.com/tauri-apps/tauri/commit/55ffa23c9e4075ec3b3e64f808398b323db79e6a) ([#12855](https://www.github.com/tauri-apps/tauri/pull/12855) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Fix docs.rs build for mobile targets.
+
+### Bug Fixes
+
+- [`755533c51`](https://www.github.com/tauri-apps/tauri/commit/755533c518391824c7393a16577d10db3aa91d19) ([#12876](https://www.github.com/tauri-apps/tauri/pull/12876) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Removed `TSend: Clone` requirement for `Channel<TSend>` by implementing `Clone` manually instead of driving it.
+- [`f98598817`](https://www.github.com/tauri-apps/tauri/commit/f98598817ca5b481d9de7a661ad00d14fd6b3b72) ([#12870](https://www.github.com/tauri-apps/tauri/pull/12870) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Update path plugin to use older dataDir API on SDK < 24.
+
+### Dependencies
+
+- Upgraded to `tauri-runtime-wry@2.5.0`
+
 ## \[2.3.1]
 
 ### Bug Fixes

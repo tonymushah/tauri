@@ -1,5 +1,15 @@
 # Changelog
 
+## \[2.3.2]
+
+### Bug Fixes
+
+- [`f268b3dbd`](https://www.github.com/tauri-apps/tauri/commit/f268b3dbdf313484c85b4a1f69cd7cec63049f35) ([#12871](https://www.github.com/tauri-apps/tauri/pull/12871) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Ignore parent .gitignore files on the Tauri project path detection.
+
+### Dependencies
+
+- Upgraded to `tauri-cli@2.3.2`
+
 ## \[2.3.1]
 
 ### Dependencies

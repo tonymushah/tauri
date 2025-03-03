@@ -1,5 +1,12 @@
 # Changelog
 
+## \[2.5.0]
+
+### New Features
+
+- [`20c190691`](https://www.github.com/tauri-apps/tauri/commit/20c19069125c89b2d45a2127278c9ffc2df35fc2) ([#12821](https://www.github.com/tauri-apps/tauri/pull/12821) by [@Simon-Laux](https://www.github.com/tauri-apps/tauri/../../Simon-Laux)) Add `WebviewBuilder.disable_javascript` and `WebviewWindowBuilder.disable_javascript` api to disable JavaScript.
+- [`c698a6d6f`](https://www.github.com/tauri-apps/tauri/commit/c698a6d6f3e02548444a4aa0e5220bbc6fc05c74) ([#12818](https://www.github.com/tauri-apps/tauri/pull/12818) by [@Simon-Laux](https://www.github.com/tauri-apps/tauri/../../Simon-Laux)) feat: add `Webview.reload` and `WebviewWindow.reload`
+
 ## \[2.4.1]
 
 ### Bug Fixes
